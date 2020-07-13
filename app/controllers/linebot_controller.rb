@@ -1,5 +1,8 @@
 class LinebotController < ApplicationController
       require 'line/bot'
+  def index
+      
+  end
 
   def callback
     body = request.body.read
